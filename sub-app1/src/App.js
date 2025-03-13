@@ -7,13 +7,6 @@ function App() {
     message.info({
       content: '装载sub-app1',
       duration: 1000000,
-      getPopupContainer: (node, props) => {
-        debugger
-        if (node) {
-          return node.parentNode;
-        }
-        return document.body;
-      }
     });
   }
 

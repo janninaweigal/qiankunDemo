@@ -15,7 +15,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { ConfigProvider } from 'antd';
 import zhCN from 'antd/es/locale/zh_CN';
-import 'antd/dist/antd.min.css';
+// import 'antd/dist/antd.min.css';
 
 // ⚠️ 关键：确保 `root` 是全局变量，以便 `unmount` 时能访问
 let root = null;
